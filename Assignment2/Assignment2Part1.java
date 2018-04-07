@@ -1,7 +1,6 @@
 package com.shpp.p2p.cs.ISakhnovskyi.Assignment2;
-
-
 /* File: Assignment2Part1
+* THE QUADRATIC EQUATION
 * ------------------------------------------
 * This program is calculate quadratic equation.
 * Input 3 arguments from console and find out a discriminant.

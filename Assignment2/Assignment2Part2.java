@@ -1,10 +1,9 @@
 package com.shpp.p2p.cs.ISakhnovskyi.Assignment2;
 /* File: Assignment2Part2
+ * FIRST ILLUSION
  * ------------------------------------------
  * This program is build illusion from four black circles and one white square.
  * */
-
-
 import acm.graphics.*;
 import com.shpp.cs.a.graphics.WindowProgram;
 
@@ -15,7 +14,6 @@ public class Assignment2Part2 extends WindowProgram {
     public static final int APPLICATION_WIDTH = 450;
     public static final int APPLICATION_HEIGHT = 450;
     private static final double CIRCLE_DIAMETER = 150;
-    private static final double RECT_MARGIN = CIRCLE_DIAMETER / 2;
 
     /*
     *draws figure named "optical illusion"
@@ -30,6 +28,8 @@ public class Assignment2Part2 extends WindowProgram {
      *draws four circles then one square in the middle point
      * */
     private void buildIllusion(){
+        double margin = CIRCLE_DIAMETER / 2;
+
         double widestX = this.getWidth() - CIRCLE_DIAMETER;
         double lowestY = this.getHeight() - CIRCLE_DIAMETER;
 
@@ -38,7 +38,7 @@ public class Assignment2Part2 extends WindowProgram {
                 addCircle(i * widestX, j  * lowestY);
             }
         }
-        addRect(RECT_MARGIN, widestX, lowestY);
+        addRect(margin, widestX, lowestY);
     }
     /**
     * Draws Circle in different positions

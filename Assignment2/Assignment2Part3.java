@@ -8,7 +8,7 @@ import java.awt.*;
      * does.
      */
 
-public class Pawprints extends WindowProgram {
+public class Assignment2Part3 extends WindowProgram {
     /* Constants controlling the relative positions of the
      * three toes to the upper-left corner of the pawprint.
      *
@@ -69,7 +69,7 @@ public class Pawprints extends WindowProgram {
 
 
     /**
-    * Builder for cat foot.
+    * Builder for the cat foot.
     */
     private class FootBuilder {
         private void drawFeet(double x, double y) {
