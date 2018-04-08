@@ -30,8 +30,8 @@ public class Assignment2Part2 extends WindowProgram {
     private void buildIllusion(){
         double margin = CIRCLE_DIAMETER / 2;
 
-        double widestX = this.getWidth() - CIRCLE_DIAMETER;
-        double lowestY = this.getHeight() - CIRCLE_DIAMETER;
+        double widestX = getWidth() - CIRCLE_DIAMETER;
+        double lowestY = getHeight() - CIRCLE_DIAMETER;
 
         for(int i = 0; i < 2; i++){
             for(int j = 0; j < 2; j++){
